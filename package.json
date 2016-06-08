@@ -1,0 +1,20 @@
+{
+  "name": "easy-equals",
+  "version": "1.0.0",
+  "description": "A simple module for testing deep equals",
+  "main": "easy-equals.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgagnon/easy-equals.git"
+  },
+  "keywords": [
+    "equals",
+    "deep"
+  ],
+  "author": "alex gagnon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexgagnon/easy-equals/issues"
+  },
+  "homepage": "https://github.com/alexgagnon/easy-equals#readme"
+}
