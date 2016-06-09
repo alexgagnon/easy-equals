@@ -30,5 +30,3 @@ or...
 
 `easy.equalsProto(item1, item2, [proto])`
 
-
-NOTE: It's a bit slower than lodash (about 25% slower when testing on huge objects)
