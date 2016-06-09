@@ -9,7 +9,9 @@ For arrays, it compares them based on value and order
 
 For functions, it's based only on their references or toString. Because of this, although closures may have the same expressions, they may not have the same state and so might have different behaviour. You've been warned.
 
-By default, compares prototypes as well, but you can just check the items own properties if false is passed into 'proto'
+By default, recursively checks the item's prototypes as well, but you can just check the items own properties if false is passed into 'proto'
+
+There is an additional method too, a shorthand for checking the prototypes of two items to see if they're the same, called equalsProto
 
 ####Usage
 CommonJS
@@ -23,6 +25,10 @@ ES6
 Then use as so...
 
 `easy.equals(item1, item2, [proto])`;
+
+or...
+
+`easy.equalsProto(item1, item2, [proto])`
 
 
 NOTE: It's a bit slower than lodash (about 25% slower when testing on huge objects)
