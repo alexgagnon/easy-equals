@@ -18,15 +18,12 @@ CommonJS
 
 `var easy = require('easy-equals')`;
 
-ES6
-
-`import * as easy from 'easy-equals'`;
 
 Then use as so...
 
 `easy.equals(item1, item2, [proto])`;
 
-or...
+or, to check the prototypes...
 
 `easy.equalsProto(item1, item2, [proto])`
 
