@@ -21,9 +21,9 @@ CommonJS
 
 Then use as so...
 
-`easy.equals(item1, item2, [proto])`;
+`easy.equals(item1, item2[, proto])`;
 
 or, to check the prototypes...
 
-`easy.equalsProto(item1, item2, [proto])`
+`easy.equalsProto(item1, item2[, proto])`
 
