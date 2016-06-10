@@ -18,7 +18,7 @@ function checkEquals(o1, o2, proto) {
     return (o2 instanceof Date) ? o1.getTime() === o2.getTime() : false;
   }
 
-  //if it is an array passed in
+  //if one but not both are arrays, not equal. If they both are, just check with keys
   if (Array.isArray(o1) !== Array.isArray(o2)) {
     return false;
   }
