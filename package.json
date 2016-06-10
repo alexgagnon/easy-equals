@@ -1,6 +1,6 @@
 {
   "name": "easy-equals",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple module for testing deep equals",
   "main": "easy-equals.js",
   "repository": {
@@ -9,7 +9,9 @@
   },
   "keywords": [
     "equals",
-    "deep"
+    "deep",
+    "comparison",
+    "object"
   ],
   "author": "alexgagnon",
   "license": "MIT",
